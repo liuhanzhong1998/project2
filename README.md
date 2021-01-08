@@ -30,32 +30,32 @@ After importing data, we used ‘dataset=mnist.load_data()’ to read datasets, 
 Output shape of each layer：
 ### keras1
 ---------------------------------
-![k1](https://github.com/WangLei-M105120312/project2/blob/main/image/k1.png)  
+![k1](https://github.com/liuhanzhong1998/project2/blob/main/image/k1.png)  
 
 ### keras2
 ---------------------------------
-![k2](https://github.com/WangLei-M105120312/project2/blob/main/image/k2.png)  
+![k2](https://github.com/liuhanzhong1998/project2/blob/main/image/k2.png)  
 
 ### keras3
 ---------------------------------
-![k3](https://github.com/WangLei-M105120312/project2/blob/main/image/k3.png) 
+![k3](https://github.com/liuhanzhong1998/project2/blob/main/image/k3.png) 
 
 ## 4. Accuracy comparison and analysis
 
 ### i. Tensorflow-1 VS Tensorflow-2
 
-![t1-t2](https://github.com/WangLei-M105120312/project2/blob/main/image/t1-t2.png)  
+![t1-t2](https://github.com/liuhanzhong1998/project2/blob/main/image/t1-t2.png)  
 From this line chart, we can see that the validation accuracy of tensorflow2 is significantly higher than that of tensorflow1. Therefore, adding a set of convolution layer and pooling layer can improve the accuracy of test data.
 
 ### ii. Tensorflow-1 VS Tensorflow-3
 
-![t1-t3](https://github.com/WangLei-M105120312/project2/blob/main/image/t1-t3.png) 
+![t1-t3](https://github.com/liuhanzhong1998/project2/blob/main/image/t1-t3.png) 
 
 It can be seen from the trend of discount in this figure that adding a full connection layer does not greatly improve the accuracy in the early epoch of training, or even slightly lower than before. With the continuation of training, the accuracy in the later epoches of training is improved compared with the previous tensorfow-1.
 
 ### iii. Keras-1 VS Keras-2
 
-![k1-k2](https://github.com/WangLei-M105120312/project2/blob/main/image/k1-k2.png) 
+![k1-k2](https://github.com/liuhanzhong1998/project2/blob/main/image/k1-k2.png) 
 
 Keras-2 changes the dropout value of keras-1 from 0.2 to 0.3. It can be seen from the final line chart of validation accuracy of each generation that when dropout value is 0.3, the validation accuracy is lower than 0.2.
 
@@ -65,7 +65,7 @@ When we use dropout in the training, it means that some of the weights and offse
 
 ### iv. Keras-1 VS Keras-3
 
-![k1-k3](https://github.com/WangLei-M105120312/project2/blob/main/image/k1-k3.png)  
+![k1-k3](https://github.com/liuhanzhong1998/project2/blob/main/image/k1-k3.png)  
 
 It is obvious from the figure that in this method, deleting a convolution layer has little effect on the validation accuracy, especially in the previous generations of training, the two almost coincide on the line chart.
 
